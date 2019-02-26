@@ -1,0 +1,179 @@
+.bodyColor{
+	background-color: rgba(211,211,211,0.2);
+
+}
+
+.bleuTop{
+background-color: rgb(30,144,255,0.4);
+height:400px;
+width:700px;
+margin-right:  50px;
+
+}
+
+.divBleuMargin2
+{
+	display: none; margin-left: 584px;
+}
+.textBienVenu
+{
+	font-family: ;
+	text-align: center;
+	color: white;
+}
+
+
+
+.textSlogan
+{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	margin-left: 30px;
+}
+.buttonAcc
+{
+	align-content: center;
+}
+
+.slider
+{
+width: 1000 px;
+height: 1000 px;
+background-image: url('../img/homePh.jpg');
+background-repeat: no-repeat;
+
+
+-moz-animation: slide 10s infinite; /*for firefox */
+animation: slide 10s infinite;
+
+-moz-animation-direction: alternate; 
+animation-direction: alternate;  
+}
+
+@keyframes slide {
+	25%
+	{
+		background-image: url('../img/homePh.jpg');
+	}
+	50%
+	{
+		background-image: url('../img/p2.jpg');
+	}
+	100%
+	{
+		background-image: url('../img/p3.jpg');
+	}
+}
+
+.sliderReception
+{
+	background-image: url('../img/p2.jpg');
+	background-repeat: no-repeat;
+	
+	height:510px;
+	width:700px;
+	
+	background-repeat: no-repeat;
+	animation: slideReception 10s infinite;
+	animation-direction: alternate;
+}
+@keyframes slideReception{
+	25%
+	{
+		background-image: url('../img/p2.jpg');
+	}
+	50%
+	{
+		background-image: url('../img/cabinetImages/reception.jpg');
+	}
+	100%
+	{
+		background-image: url('../img/cabinetImages/reception2.jpg');
+	}
+
+}
+
+
+.ecritureHoraires
+{
+	color: #111; 
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+.imageHoraire
+{
+	background-image: url('../img/p2.jpg');
+	background-repeat: no-repeat;
+	
+	height:510px;
+	width:700px;
+	float:right;
+	position:relative;
+	align-content: right;
+}
+
+.tableHoraires
+{
+background-color: rgb(30,144,255,0.4);
+height:400px;
+width:700px;
+position:absolute;
+margin-left: 50px;
+}
+.bouttonListeMedcins{
+	margin-right: :  200px;
+}
+
+.footerTraitement
+{
+	background-color: rgb(128,128,128);
+	width: 1000 px;
+	height: 1000 px;
+}
+.ecritureFooter
+{
+	color:white;
+}
+.ecriturelinks
+{
+	color:#232424;
+}
+.ecritureLast
+{
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+}
+
+.navImg
+{
+	margin-top: 20px;
+}
+
+.DivNavImage
+{
+	background-image: url('../img/nav/bar2.jpg');
+	width: 350px;
+	height: 50px;
+	float: right;
+	margin-top: 20px;
+	margin-left: 950px;
+	position:absolute;
+}
+.logoPosition
+{
+	position:relative;
+	float: right;
+}
+
+.table-width
+{
+	width:100%;
+}
+
+.display-block{
+	display: block;
+}

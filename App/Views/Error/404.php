@@ -1,0 +1,1 @@
+<div class="h1 mt-5">404 <?php echo $errorMsg?></div>
